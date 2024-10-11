@@ -31,3 +31,8 @@
 .separacion{
   margin: var(--separacion) 0;
 }
+
+.perfil-imagen{
+  width: 35px;
+  border-radius: 50%;
+}

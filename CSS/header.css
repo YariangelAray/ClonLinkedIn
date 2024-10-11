@@ -27,7 +27,8 @@
 }
 
 .logo{
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .logo_imagen{
   width: 35px;
@@ -43,6 +44,7 @@
   gap: var(--separacion);
   font-size: var(--tamaño-iconos);
   width: 100%;
+  height: 35px;
 }
 
 .barra-busqueda__ingresar{
@@ -100,11 +102,6 @@
   height: 35px;
   position: relative; 
 }
-.perfil-online__imagen{
-  width: 35px;
-  overflow: hidden;
-  border-radius: 50%;
-}
 .perfil-online__foto::after{
   content: '';
   width: 9px;
@@ -117,7 +114,7 @@
   right: -2px;
 }
 
-/* MENU */
+/* MENU DROPDOWN*/
 
 .perfil-menu{
   display: block;
