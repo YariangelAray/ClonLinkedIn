@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <title>Clon LinkedIn</title>
+</head>
+<body class="cuerpo">
+  <header class="header">
+    <div class="contenedor header__contenedor">
+      <div class="header__busqueda">
+        <a href="index.html" class="logo">
+          <img class="logo_imagen" src="IMG/logo.webp" alt="logo">
+        </a>
+        <form class="barra-busqueda">
+          <i class="ri-search-line"></i>
+          <input type="text" class="barra-busqueda__ingresar" placeholder="Buscar">
+        </form>
+      </div>
+      <div class="header__navegacion">
+        <nav class="navegacion">
+
+          <div class="navegacion__list">
+            <a href="index.html" class="navegacion__item navegacion__item--activo">
+              <i class="navegacion__icono ri-home-4-fill"></i>
+              <span class="navegacion__text">Inicio</span>
+            </a>
+            <a href="#" class="navegacion__item">
+              <i class="navegacion__icono ri-group-fill"></i>
+              <span class="navegacion__text">Mi red</span>
+            </a>
+            <a href="#" class="navegacion__item">
+              <i class="navegacion__icono ri-briefcase-4-fill"></i>
+              <span class="navegacion__text">Empleos</span>
+            </a>
+            <a href="#" class="navegacion__item">
+              <i class="navegacion__icono ri-chat-4-fill"></i>
+              <span class="navegacion__text">Mensajes</span>
+            </a>
+            <a href="#" class="navegacion__item">
+              <i class="navegacion__icono ri-notification-2-fill"></i>
+              <span class="navegacion__text">Notificaciones</span>
+            </a>
+          </div>
+
+         <div class="perfil-online">          
+          
+          <a href="#perfil-menu" class="perfil-online__foto">
+            <img src="IMG/Gatitos.jpg" alt="perfil" class="perfil-online__imagen">
+          </a>
+          
+
+          <div class="perfil-menu" id="perfil-menu">
+            
+            <a href="index.html" class="salir">
+              <i class="ri-arrow-up-wide-line"></i>
+            </a>
+
+            <div class="info-user">
+              <img src="IMG/Gatitos.jpg" alt="perfil" class="info-user__imagen">
+              <div class="info-user__texto">
+                <h1 class="nombre info-user__nombre">
+                  Yariangel Aray
+                </h1>
+                <a href="perfil.html" class="info-user__link">Mirar tu perfil</a>
+              </div>            
+            </div>
+
+            <hr class="separacion">
+
+            <a class="perfil-menu__item">
+              <i class="perfil-menu__icono ri-feedback-fill"></i>
+              <p class="perfil-menu__text">Give Feebdack</p>
+              <span class="perfil-menu__arrow">></span>
+            </a>
+            <a class="perfil-menu__item">
+              <i class="perfil-menu__icono ri-settings-3-fill"></i>
+              <p class="perfil-menu__text">Setting & Privacity</p>
+              <span class="perfil-menu__arrow">></span>
+            </a>
+            <a class="perfil-menu__item">
+              <i class="perfil-menu__icono ri-question-fill"></i>
+              <p class="perfil-menu__text">Help & Support</p>
+              <span class="perfil-menu__arrow">></span>
+            </a>
+            <a class="perfil-menu__item">
+              <i class="perfil-menu__icono ri-moon-fill"></i>
+              <p class="perfil-menu__text">Display & Accessibility</p>
+              <span class="perfil-menu__arrow">></span>
+            </a>
+            <a class="perfil-menu__item">
+              <i class="perfil-menu__icono ri-logout-box-r-fill"></i>
+              <p class="perfil-menu__text">Logout</p>
+              <span class="perfil-menu__arrow">></span>
+            </a>
+
+          </div>
+
+         </div> 
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="contenedor contenedor__estructura">
+    <aside class="sidebar-left">
+      <div class="sidebar-left__perfil"></div>
+      <div class="sidebar-left__actividad" ></div>
+    </aside>
+    <main class="main"></main>
+    <aside class="sidebar-right">
+      <div class="sidebar-right__news"></div>
+      <div class="sidebar-right__ads"></div>
+    </aside>
+  </div>
+</body>
+</html>

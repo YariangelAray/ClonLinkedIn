@@ -1,0 +1,16 @@
+:root{
+  --fondo: #f4f2ee;
+  --color-principal: #fff;
+  --color-secundario: #2874b1;
+  --color-fuentes: #5f5f5f;
+  --color-fuentes2: #000;
+  --azul-claro: #edf3f8;
+  --gris-claro: #ccc;
+  --separacion: 10px;
+  --separacion2: 1rem;
+  --tamaño-iconos: 1.3rem;
+  --tamaño-parrafos: 0.8rem;
+  --tamaño-parrafos2: 0.9rem;
+  --tamaño-nombre: 1.4rem;
+  --tiempo-transicion: 0.3s;
+}
