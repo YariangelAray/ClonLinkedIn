@@ -2,6 +2,7 @@
 @import url(variables.css);
 @import url(header.css);
 @import url(contenedor.css);
+@import url(sidebars.css);
 
 *{
   margin: 0;
@@ -26,13 +27,16 @@
 
 .nombre{
   font-size: var(--tamaño-nombre);
+  font-weight: 550;
 }
 
 .separacion{
-  margin: var(--separacion) 0;
+  margin: 10px 0;
 }
 
 .perfil-imagen{
+  min-width: 35px;
   width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
