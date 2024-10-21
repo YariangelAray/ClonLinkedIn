@@ -1,17 +1,137 @@
+/* IZQUIERDO */
+
+/* PERFIL */
 .sidebar-left__perfil{
   background-color: var(--color-principal);
-  height: 100px;
 }
+
+.sidebar-left__perfil-fondo{
+  width: 100%;
+  height: 90px;
+  object-fit:cover;
+}
+
+.sidebar-left__perfil-foto{
+  min-width: 90px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: var(--color-principal);
+  margin-top: -50px;
+}
+
+.sidebar-left__info{
+  padding: 0 25px;
+  color: var(--color-fuentes);
+  font-size: var(--tamaño-parrafos);
+}
+.sidebar-left__nombre{
+  color: var(--color-fuentes2);
+}
+
+.sidebar-left__ocupacion{
+  font-weight: 500;
+}
+.sidebar-left__popularidad{
+  list-style: none;
+  margin: var(--separacion2) 0;
+}
+.sidebar-left__popularidad span{
+  float: right;
+  color: var(--color-secundario);
+}
+.sidebar-left__popularidad li{
+  margin: 5px 0;
+}
+
+.sidebar-left__items{
+  border-top: 1px solid var(--gris-claro);
+  display: flex;
+}
+.sidebar-left__item{
+  text-decoration: none;
+  color: var(--color-fuentes);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: var(--separacion2) 0;
+}
+.sidebar-left__item ~ hr{
+  border: none;
+  width: 1px;
+  background-color: var(--gris-claro);
+  margin: 5px 5px;
+}
+.sidebar-left__icono{
+  font-size: var(--tamaño-nombre);
+  color: #ea9900;
+}
+.sidebar-left__icono2{
+  color: var(--color-secundario);
+}
+.sidebar-left__item-text{
+  font-size: var(--tamaño-parrafos);
+}
+
+
+/* ACTIVIDAD */
+
 
 .sidebar-left__actividad{
   background-color: var(--color-principal);
   margin-top: var(--separacion);
-  padding: 25px;
+  padding: 5px 25px;
 }
 .sidebar-left__titulo{
   font-size: 14px;
   font-weight: 500;
   color: var(--color-fuentes);
+  margin-top: 25px;
+}
+
+.sidebar-left__link{
+  text-decoration: none;
+  color: var(--color-fuentes);
+  font-size: var(--tamaño-parrafos);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin: 5px 0;
+  transition: var(--tiempo-transicion);
+}
+.sidebar-left__link:hover{
+  background-color: var(--azul-claro);
+}
+.sidebar-left__iconlink{  
+  color: var(--color-secundario);
+  font-weight: 800;
+  font-size: 18px;
+}
+.sidebar-left__descubrir{
+  padding: var(--separacion);
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--gris-claro);
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: 25px;
+}
+.sidebar-left__descubrir-link{
+  text-decoration: none;
+  color: var(--color-secundario);
+  font-size: var(--tamaño-parrafos);
+  display: block;
+  text-align: center;
+  padding: 4px 20px;
+  transition: var(--tiempo-transicion);
+}
+.sidebar-left__descubrir-link:hover{
+  background-color: var(--azul-claro);
 }
 
 /* SIDEBAR DERECHO */
