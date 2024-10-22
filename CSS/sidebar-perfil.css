@@ -29,10 +29,5 @@
 }
 
 .persona__conectar{
-    font-size: var(--tamaño-parrafos);
-    color: var(--color-fuentes);
-    text-decoration: none;
     padding: 5px 20px;
-    border: 1px solid var(--color-fuentes);
-    border-radius: 15px;
 }

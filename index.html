@@ -10,20 +10,30 @@
   <title>Clon LinkedIn</title>
 </head>
 <body class="cuerpo">
+
+  <!-- ENCABEZADO -->
+
   <header class="header">
+
+    <!-- BUSQUEDA  -->
+
     <div class="contenedor header__contenedor">
       <div class="header__busqueda">
         <a href="index.html" class="logo">
-          <img class="logo_imagen" src="IMG/logo.webp" alt="logo">
+          <img class="logo-imagen" src="IMG/logo.webp" alt="logo">
         </a>
         <form class="barra-busqueda">
-          <i class="ri-search-line"></i>
-          <input type="text" class="barra-busqueda__ingresar" placeholder="Buscar">
+            <i class="ri-search-line"></i>
+            <input type="text" class="barra-busqueda__ingresar" placeholder="Buscar">
         </form>
       </div>
-      <div class="header__navegacion">
-        <nav class="navegacion">
 
+      <!-- MENU DE NAVEGACION -->
+
+      <div class="header__navegacion">
+
+        <nav class="navegacion">
+    
           <div class="navegacion__list">
             <a href="index.html" class="navegacion__item navegacion__item--activo">
               <i class="navegacion__icono ri-home-4-fill"></i>
@@ -46,70 +56,80 @@
               <span class="navegacion__text">Notificaciones</span>
             </a>
           </div>
+    
+          <!-- FOTO DE PERFIL -->
 
-         <div class="perfil-online">          
-          
-          <a href="#perfil-menu" class="perfil-online__foto">
-            <img src="IMG/Gatitos.jpg" alt="perfil" class="perfil-online__imagen perfil-imagen">
-          </a>
-          
-
-          <div class="perfil-menu" id="perfil-menu">
-
-            <a href="index.html" class="salir">
-              <i class="ri-arrow-up-wide-line"></i>
+          <div class="perfil-online">          
+                
+            <a href="#perfil-menu" class="perfil-online__foto">
+              <img src="IMG/Gatitos.jpg" alt="perfil" class="perfil-online__imagen perfil-imagen">
             </a>
+                    
+            <!-- MENU DESPLEGABLE DE LA FOTO DE PERFIL -->
 
-            <div class="info-user">
-              <img src="IMG/Gatitos.jpg" alt="perfil" class="info-user__imagen">
-              <div class="info-user__texto">
-                <h1 class="nombre info-user__nombre">
-                  Yariangel Aray
-                </h1>
-                <a href="perfil.html" class="info-user__link">Mirar tu perfil</a>
-              </div>            
+            <div class="perfil-menu" id="perfil-menu">
+            
+              <a href="perfil.html" class="salir">
+                <i class="ri-arrow-up-wide-line"></i>
+              </a>
+            
+              <div class="info-user">
+                <img src="IMG/Gatitos.jpg" alt="perfil" class="info-user__imagen">
+                <div class="info-user__texto">
+                  <h1 class="nombre info-user__nombre">
+                    Yariangel Aray
+                  </h1>
+                  <a href="perfil.html" class="info-user__link">Mirar tu perfil</a>
+                </div>            
+              </div>
+            
+              <hr class="separacion">
+            
+              <a class="perfil-menu__item">
+                <i class="perfil-menu__icono ri-feedback-fill"></i>
+                <p class="perfil-menu__text">Give Feebdack</p>
+                <span class="perfil-menu__arrow">></span>
+              </a>
+              <a class="perfil-menu__item">
+                <i class="perfil-menu__icono ri-settings-3-fill"></i>
+                <p class="perfil-menu__text">Setting & Privacity</p>
+                <span class="perfil-menu__arrow">></span>
+              </a>
+              <a class="perfil-menu__item">
+                <i class="perfil-menu__icono ri-question-fill"></i>
+                <p class="perfil-menu__text">Help & Support</p>
+                <span class="perfil-menu__arrow">></span>
+              </a>
+              <a class="perfil-menu__item">
+                <i class="perfil-menu__icono ri-moon-fill"></i>
+                <p class="perfil-menu__text">Display & Accessibility</p>
+                <span class="perfil-menu__arrow">></span>
+              </a>
+              <a class="perfil-menu__item">
+                <i class="perfil-menu__icono ri-logout-box-r-fill"></i>
+                <p class="perfil-menu__text">Logout</p>
+                <span class="perfil-menu__arrow">></span>
+              </a>
             </div>
-
-            <hr class="separacion">
-
-            <a class="perfil-menu__item">
-              <i class="perfil-menu__icono ri-feedback-fill"></i>
-              <p class="perfil-menu__text">Give Feebdack</p>
-              <span class="perfil-menu__arrow">></span>
-            </a>
-            <a class="perfil-menu__item">
-              <i class="perfil-menu__icono ri-settings-3-fill"></i>
-              <p class="perfil-menu__text">Setting & Privacity</p>
-              <span class="perfil-menu__arrow">></span>
-            </a>
-            <a class="perfil-menu__item">
-              <i class="perfil-menu__icono ri-question-fill"></i>
-              <p class="perfil-menu__text">Help & Support</p>
-              <span class="perfil-menu__arrow">></span>
-            </a>
-            <a class="perfil-menu__item">
-              <i class="perfil-menu__icono ri-moon-fill"></i>
-              <p class="perfil-menu__text">Display & Accessibility</p>
-              <span class="perfil-menu__arrow">></span>
-            </a>
-            <a class="perfil-menu__item">
-              <i class="perfil-menu__icono ri-logout-box-r-fill"></i>
-              <p class="perfil-menu__text">Logout</p>
-              <span class="perfil-menu__arrow">></span>
-            </a>
-
-          </div>
-
-         </div> 
+          </div> 
         </nav>
       </div>
     </div>
   </header>
+
+  <!-- CONTENIDO -->
+
   <div class="contenedor contenedor__estructura">
 
+    <!-- BARRA LATERAL IZQUIERDA -->
+
     <aside class="sidebar-left">
+
+      <!-- PERFIL -->
+
       <div class="sidebar-left__perfil">
-        <img src="IMG/.jpg" class="sidebar-left__">
+
+        <img src="IMG/perfil-fondo.jpg" class="sidebar-left__perfil-fondo">
         <div class="sidebar-left__info">
           <img src="IMG/Gatitos.jpg" alt="perfil" class="sidebar-left__perfil-foto">
           <h1 class="nombre sidebar-left__nombre">Yariangel Aray</h1>
@@ -121,6 +141,7 @@
             <li>Your connections<span>205</span></li>
           </ul>          
         </div>
+
         <div class="sidebar-left__items">
           <a href="#" class="sidebar-left__item">
             <i class="sidebar-left__icono2 sidebar-left__icono ri-bookmark-fill"></i>
@@ -132,8 +153,13 @@
             <span class="sidebar-left__item-text">Try Premium</span>
           </a>
         </div>
+
       </div>
+
+      <!-- ACTIVIDAD -->
+
       <div class="sidebar-left__actividad" >
+
         <h3 class="sidebar-left__titulo">RECENT</h3>
 
         <a href="#" class="sidebar-left__link">
@@ -160,6 +186,7 @@
           <i class="sidebar-left__iconlink ri-time-line"></i>
           <span>Group Learning</span>
         </a>
+
         <h3 class="sidebar-left__titulo">GROUP</h3>
 
         <a href="#" class="sidebar-left__link">
@@ -178,6 +205,7 @@
           <i class="sidebar-left__iconlink ri-group-3-fill"></i>
           <span>Learn Coding Online</span>
         </a>
+
         <h3 class="sidebar-left__titulo">HASHTAG</h3>
 
         <a href="#" class="sidebar-left__link">
@@ -192,20 +220,31 @@
           <i class="sidebar-left__iconlink ri-hashtag"></i>
           <span>onlinelearning</span>
         </a>
+
         <div class="sidebar-left__descubrir">
           <a href="#" class="sidebar-left__descubrir-link">Descubrir más</a>
         </div>
-
       </div>
+
     </aside>
+
+    <!-- PRINCIPAL -->
 
     <main class="main">
 
+      <!-- CREAR UN POST O PUBLICACION -->
+      
       <div class="crear-post">
+
+        <!-- CAJA DE ESCRIBIR UN MENSAJE -->
+
         <div class="crear-post__ingresar">
           <img src="IMG/Gatitos.jpg" alt="perfil" class="crear-post__imagen perfil-imagen">
           <textarea class="crear-post__mensaje" placeholder="Escribe un mensaje"></textarea>          
         </div>
+
+        <!-- MENÚ -->
+
         <div class="crear-post__menu">
           <a href="#" class="crear-post__link">
             <i class="crear-post__icono ri-camera-fill"></i>
@@ -225,6 +264,8 @@
         </div>
       </div>
 
+      <!-- SEPARACIÓN -->
+
       <div class="separacion-short-by">
         <hr class="separacion">
         <p class="separacion__texto">Short by:
@@ -233,6 +274,8 @@
         </p>        
         </span>
       </div>
+
+      <!-- PUBLICACIONES -->
 
       <div class="post">
 
@@ -405,12 +448,19 @@
 
     </main>
 
+    <!-- BARRA LATERAL DERECHA -->
+
     <aside class="sidebar-right">
+
+      <!-- NOTICIAS -->
+
       <div class="sidebar-right__news">
+
         <div class="sidebar-right__titulo">
           <h1 class="nombre">Trending  News</h1>
           <i class="sidebar-right__icon ri-error-warning-line"></i>
         </div>
+
         <a href="#" class="sidebar-right__noticia">High demand for skilled manpower</a>
         <span class="sidebar-right__info">1d ago · 10,934 readers</span>
         <a href="#" class="sidebar-right__noticia">Careers growing horizontally too</a>
@@ -424,6 +474,9 @@
 
         <a href="#" class="sidebar-right__newsmas">Leer más</a>
       </div>
+
+      <!-- PARTE INMOVIL - ADS Y LINKS CON EL COPYRIGHT -->
+
       <div class="sidebar__inmovil">
 
         <div class="sidebar__ads">
@@ -436,7 +489,7 @@
           <p>
             Brand and Demand in Xiaomi
           </p>
-          <a href="#" class="sidebar__adslink">Mostrar más</a>
+          <a href="#" class="sidebar__adslink boton-transparente">Mostrar más</a>
         </div>
 
         <div class="sidebar__links">

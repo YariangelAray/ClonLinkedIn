@@ -10,136 +10,274 @@
     <title>Clon Linkedin - Perfil</title>
 </head>
 <body class="cuerpo">
+
+    <!-- ENCABEZADO -->
+
     <header class="header">
+
+        <!-- BUSQUEDA  -->
+
         <div class="contenedor header__contenedor">
             <div class="header__busqueda">
                 <a href="index.html" class="logo">
-                <img class="logo_imagen" src="IMG/logo.webp" alt="logo">
+                    <img class="logo-imagen" src="IMG/logo.webp" alt="logo">
                 </a>
                 <form class="barra-busqueda">
-                <i class="ri-search-line"></i>
-                <input type="text" class="barra-busqueda__ingresar" placeholder="Buscar">
+                    <i class="ri-search-line"></i>
+                    <input type="text" class="barra-busqueda__ingresar" placeholder="Buscar">
                 </form>
             </div>
+
+            <!-- MENU DE NAVEGACION -->
+
             <div class="header__navegacion">
+
                 <nav class="navegacion">
         
                     <div class="navegacion__list">
                         <a href="index.html" class="navegacion__item navegacion__item--activo">
-                        <i class="navegacion__icono ri-home-4-fill"></i>
-                        <span class="navegacion__text">Inicio</span>
+                            <i class="navegacion__icono ri-home-4-fill"></i>
+                            <span class="navegacion__text">Inicio</span>
                         </a>
                         <a href="#" class="navegacion__item">
-                        <i class="navegacion__icono ri-group-fill"></i>
-                        <span class="navegacion__text">Mi red</span>
+                            <i class="navegacion__icono ri-group-fill"></i>
+                            <span class="navegacion__text">Mi red</span>
                         </a>
                         <a href="#" class="navegacion__item">
-                        <i class="navegacion__icono ri-briefcase-4-fill"></i>
-                        <span class="navegacion__text">Empleos</span>
+                            <i class="navegacion__icono ri-briefcase-4-fill"></i>
+                            <span class="navegacion__text">Empleos</span>
                         </a>
                         <a href="#" class="navegacion__item">
-                        <i class="navegacion__icono ri-chat-4-fill"></i>
-                        <span class="navegacion__text">Mensajes</span>
+                            <i class="navegacion__icono ri-chat-4-fill"></i>
+                            <span class="navegacion__text">Mensajes</span>
                         </a>
                         <a href="#" class="navegacion__item">
-                        <i class="navegacion__icono ri-notification-2-fill"></i>
-                        <span class="navegacion__text">Notificaciones</span>
+                            <i class="navegacion__icono ri-notification-2-fill"></i>
+                            <span class="navegacion__text">Notificaciones</span>
                         </a>
                     </div>
         
+                    <!-- FOTO DE PERFIL -->
+
                     <div class="perfil-online">          
                     
                         <a href="#perfil-menu" class="perfil-online__foto">
                             <img src="IMG/Gatitos.jpg" alt="perfil" class="perfil-online__imagen perfil-imagen">
                         </a>
                         
-            
+                        <!-- MENU DESPLEGABLE DE LA FOTO DE PERFIL -->
+
                         <div class="perfil-menu" id="perfil-menu">
                 
                             <a href="perfil.html" class="salir">
-                            <i class="ri-arrow-up-wide-line"></i>
+                                <i class="ri-arrow-up-wide-line"></i>
                             </a>
                 
                             <div class="info-user">
-                            <img src="IMG/Gatitos.jpg" alt="perfil" class="info-user__imagen">
-                            <div class="info-user__texto">
-                                <h1 class="nombre info-user__nombre">
-                                Yariangel Aray
-                                </h1>
-                                <a href="perfil.html" class="info-user__link">Mirar tu perfil</a>
-                            </div>            
+                                <img src="IMG/Gatitos.jpg" alt="perfil" class="info-user__imagen">
+                                <div class="info-user__texto">
+                                    <h1 class="nombre info-user__nombre">
+                                    Yariangel Aray
+                                    </h1>
+                                    <a href="perfil.html" class="info-user__link">Mirar tu perfil</a>
+                                </div>            
                             </div>
                 
                             <hr class="separacion">
                 
                             <a class="perfil-menu__item">
-                            <i class="perfil-menu__icono ri-feedback-fill"></i>
-                            <p class="perfil-menu__text">Give Feebdack</p>
-                            <span class="perfil-menu__arrow">></span>
+                                <i class="perfil-menu__icono ri-feedback-fill"></i>
+                                <p class="perfil-menu__text">Give Feebdack</p>
+                                <span class="perfil-menu__arrow">></span>
                             </a>
                             <a class="perfil-menu__item">
-                            <i class="perfil-menu__icono ri-settings-3-fill"></i>
-                            <p class="perfil-menu__text">Setting & Privacity</p>
-                            <span class="perfil-menu__arrow">></span>
+                                <i class="perfil-menu__icono ri-settings-3-fill"></i>
+                                <p class="perfil-menu__text">Setting & Privacity</p>
+                                <span class="perfil-menu__arrow">></span>
                             </a>
                             <a class="perfil-menu__item">
-                            <i class="perfil-menu__icono ri-question-fill"></i>
-                            <p class="perfil-menu__text">Help & Support</p>
-                            <span class="perfil-menu__arrow">></span>
+                                <i class="perfil-menu__icono ri-question-fill"></i>
+                                <p class="perfil-menu__text">Help & Support</p>
+                                <span class="perfil-menu__arrow">></span>
                             </a>
                             <a class="perfil-menu__item">
-                            <i class="perfil-menu__icono ri-moon-fill"></i>
-                            <p class="perfil-menu__text">Display & Accessibility</p>
-                            <span class="perfil-menu__arrow">></span>
+                                <i class="perfil-menu__icono ri-moon-fill"></i>
+                                <p class="perfil-menu__text">Display & Accessibility</p>
+                                <span class="perfil-menu__arrow">></span>
                             </a>
                             <a class="perfil-menu__item">
-                            <i class="perfil-menu__icono ri-logout-box-r-fill"></i>
-                            <p class="perfil-menu__text">Logout</p>
-                            <span class="perfil-menu__arrow">></span>
+                                <i class="perfil-menu__icono ri-logout-box-r-fill"></i>
+                                <p class="perfil-menu__text">Logout</p>
+                                <span class="perfil-menu__arrow">></span>
                             </a>
-                
                         </div>
-            
                     </div> 
                 </nav>
             </div>
         </div>
     </header>
 
+    <!-- CONTENEDOR -->
+
     <div class="contenedor contenedor__estructura-perfil">
-        <div class="perfil-main">
+        
+        <!-- PERFIL Y DETALLES -->
+
+        <main class="perfil-main">
+
+            <!-- PERFIL -->
 
             <div class="perfil-contenedor">
                 <img src="IMG/perfil-fondo.jpg" alt="fondo" class="perfil-contenedor__fondo">
+
                 <div class="perfil-contenedor__informacion">
                     <img src="IMG/Gatitos.jpg" alt="Perfil" class="perfil-contenedor__foto">
-                    <h1>Yariangel Aray</h1>
-                    <b>Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</b>
-                    <p>San Francisco, United States ·   <a href="#">Contact info</a></p>
+                    
+                    <h1 class="perfil-contenedor__usuario">Yariangel Aray</h1>
+                    <b class="perfil-contenedor__ocupacion">Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</b>
+                    <p class="perfil-contenedor__ciudad">San Francisco, United States ·   <a href="#" class="perfil-contenedor__link">Contact info</a></p>
+                    
                     <div class="perfil-contenedor__conexion">
-                        <img src="IMG/user-5.png" alt="perfil">
+                        <img src="IMG/user-5.png" alt="perfil" class="perfil-imagen">
                         <p>1 Mutual connection: Clarence George</p>
+                    </div>
+
+                    <div class="perfil-contenedor__botones">
+                        <a href="#" class="boton-relleno">
+                            <i class="ri-user-add-fill"></i>
+                            Conectar</a>
+                        <a href="#" class="boton-relleno">
+                            <i class="ri-question-answer-fill"></i>
+                            Mensaje</a>
                     </div>
                 </div>
             </div>
 
+            <!-- DETALLES -->
+
             <div class="perfil-descripcion">
-                <h2>About</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nihil ullam expedita similique, earum atque quos ipsam, perferendis perspiciatis praesentium cupiditate laudantium sapiente architecto, tempora impedit voluptates id. Quos sequi pariatur natus exercitationem minus nostrum omnis cum repellendus numquam reprehenderit.</p>
-                <a href="#">Ver más...</a>
+                <h2 class="perfil-descripcion__titulo">
+                    Acerda de
+                </h2>
+                <p class="perfil-descripcion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nihil ullam expedita similique, earum atque quos ipsam, perferendis perspiciatis praesentium cupiditate laudantium sapiente architecto, tempora impedit voluptates id. Quos sequi pariatur natus exercitationem minus nostrum omnis cum repellendus numquam reprehenderit.</p>
+                <a href="#" class="perfil-descripcion__vermas">Ver más...</a>
             </div>
 
-            <div class="perfil-descripcion"></div>
+            <!-- EXPERIENCIA -->
 
-            <div class="perfil-descripcion"></div>
+            <div class="perfil-descripcion">
+                <h2 class="perfil-descripcion__titulo">
+                    Experiencia
+                </h2>
 
-            <div class="perfil-descripcion"></div>
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/microsoft.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Lead Front-End Developer</h3>
+                        <b class="perfil-descripcion__detalles">Microsoft · Full-time</b>
+                        <b class="perfil-descripcion__detalles">Feb 2021 - Present · 1.5 years</b>
+                        <p class="perfil-descripcion__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ratione laboriosam optio consectetur ducimus! Quo.</p>
+                        <hr class="separacion">
+                    </div>
+                </div>
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/slack.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Full Stack Developer</h3>
+                        <b class="perfil-descripcion__detalles">Slack · Full-time</b>
+                        <b class="perfil-descripcion__detalles">June 2018 - Jn 2021 · 2.6 years</b>
+                        <p class="perfil-descripcion__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ratione laboriosam optio consectetur ducimus! Quo.</p>
+                        <hr class="separacion">
+                    </div>
+                </div>
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/google.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Web DEveloper</h3>
+                        <b class="perfil-descripcion__detalles">Google Inc · Full-time</b>
+                        <b class="perfil-descripcion__detalles">Sept 2015 - May 2018 · 2.8 years</b>
+                        <p class="perfil-descripcion__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ratione laboriosam optio consectetur ducimus! Quo.</p>
+                    </div>
+                </div>
+                <hr class="separacion">
+                <a href="#" class="perfil-descripcion__linkexperiencia">Mostrar todas las experiencias<i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <!-- EDUCACIOON -->
+
+            <div class="perfil-descripcion">
+                <h2 class="perfil-descripcion__titulo">
+                    Educación
+                </h2>
+
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/stanford.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Stanford University</h3>
+                        <b class="perfil-descripcion__detalles">BSEE, Electrical Engineering</b>
+                        <b class="perfil-descripcion__detalles">2028 - 2022</b>
+                        <hr class="separacion">
+                    </div>
+                </div>
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/north.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Northwestern University</h3>
+                        <b class="perfil-descripcion__detalles">Computer Science</b>
+                        <b class="perfil-descripcion__detalles">2015 - 2018</b>
+                        <hr class="separacion">
+                    </div>
+                </div>
+                <div class="perfil-descripcion__bloque">
+                    <img src="IMG/mit.png" alt="imagen" class="perfil-descripcion__imagen">
+                    <div class="perfil-descripcion__info">
+                        <h3 class="perfil-descripcion__titulo2">Harvart University</h3>
+                        <b class="perfil-descripcion__detalles">Senior High Scholl</b>
+                        <b class="perfil-descripcion__detalles">2005 - 2015</b>                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- HABILIDADES -->
             
-            <div class="perfil-descripcion"></div>
-        </div>
-        <div class="perfil-sidebar">
+            <div class="perfil-descripcion">
+                <h2 class="perfil-descripcion__titulo">
+                    Habilidades
+                </h2>
+                
+                <a href="#" class="boton-transparente habilidad">Leadership</a>
+                <a href="#" class="boton-transparente habilidad">Web Desing</a>
+                <a href="#" class="boton-transparente habilidad">Development</a>
+                <a href="#" class="boton-transparente habilidad">Communications</a>
+                <a href="#" class="boton-transparente habilidad">UI/UX</a>
+                <a href="#" class="boton-transparente habilidad">Planning</a>
+                <a href="#" class="boton-transparente habilidad">Coding</a>
+                <a href="#" class="boton-transparente habilidad">JavaScript</a>
+                <a href="#" class="boton-transparente habilidad">Python</a>
+                <a href="#" class="boton-transparente habilidad">Enterprenuorship</a>    
+            </div>
+
+            <!-- IDIOMAS -->
+            
+            <div class="perfil-descripcion">
+                <h2 class="perfil-descripcion__titulo">Idiomas</h2>
+                <a href="#" class="idioma">Inglés</a>
+                <a href="#" class="idioma">Español</a>
+            </div>
+
+        </main>
+
+        <!-- BARRA LATERAL -->
+
+        <aside class="perfil-sidebar">
+
+            <!-- PARTE INMOVIL - ADS - PERSONAS QUE QUIZÁS CONOZCAS -->
 
             <div class="sidebar__inmovil">
+
+                <!-- ADS -->
+
                 <div class="sidebar__ads">
                   <span class="sidebar__adsmore">Add  · · ·</span>
                   <p>Master teh 5 principles of web desing</p>
@@ -150,17 +288,20 @@
                   <p>
                     Brand and Demand in Xiaomi
                   </p>
-                  <a href="#" class="sidebar__adslink">Mostrar más</a>
+                  <a href="#" class="boton-transparente sidebar__adslink">Mostrar más</a>
                 </div>
+
+                <!-- PERSONA QUE QUIZÁS CONOZCAS -->
 
                 <div class="sidebar__personas">
                     <h1 class="sidebar__titulo">People your may know</h1>
+
                     <div class="persona">
                         <img src="IMG/user-2.png" alt="perfil" class="perfil-imagen persona__foto">
                         <div class="persona__info">
                             <h1 class="persona__nombre">Benjamin Leo</h1>
                             <p class="persona__ocupacion">Head of Marketing at Alibaba</p>
-                            <a href="#" class="persona__conectar">Conectar</a>
+                            <a href="#" class="persona__conectar boton-transparente">Conectar</a>
                         </div>
                     </div>
                     <div class="persona"> 
@@ -168,7 +309,7 @@
                         <div class="persona__info">
                             <h1 class="persona__nombre">Laura Santamaria</h1>
                             <p class="persona__ocupacion">Head of Marketing at Alibaba</p>
-                            <a href="#" class="persona__conectar">Conectar</a>
+                            <a href="#" class="persona__conectar boton-transparente">Conectar</a>
                         </div>
                     </div>
                     <div class="persona">
@@ -176,7 +317,7 @@
                         <div class="persona__info">
                             <h1 class="persona__nombre">Clarence George</h1>
                             <p class="persona__ocupacion">Head of Marketing at Alibaba</p>
-                            <a href="#" class="persona__conectar">Conectar</a>
+                            <a href="#" class="persona__conectar boton-transparente">Conectar</a>
                         </div>
                     </div>
                     <div class="persona">
@@ -184,14 +325,34 @@
                         <div class="persona__info">
                             <h1 class="persona__nombre">Martina Lewis</h1>
                             <p class="persona__ocupacion">Head of Marketing at Alibaba</p>
-                            <a href="#" class="persona__conectar">Conectar</a>
+                            <a href="#" class="persona__conectar boton-transparente">Conectar</a>
                         </div>
                     </div>
                 </div>
 
             </div>
-        </div>
-        <div class="perfil-footer"></div>
+        </aside>
+
+        <!-- PIE DE PÁGINA -->
+
+        <footer class="perfil-footer">
+            <div class="links">
+                <a href="#" class="link">About</a>
+                <a href="#" class="link">Accessibility</a>
+                <a href="#" class="link">Help</a>
+                <a href="#" class="link">Center</a>
+                <a href="#" class="link">Privacy</a>
+                <a href="#" class="link">Policy</a>
+                <a href="#" class="link">Advertising</a>
+                <a href="#" class="link">Get the App</a>
+                <a href="#" class="link">More</a>
+                <div class="copyright">
+                  <img src="IMG/logo.webp" alt="logo" class="copyright__logo">
+                  <p>Linkedup © 2022. All right reserved</p>
+                </div>
+            </div>
+        </footer>
+
     </div>
 </body>
 </html>

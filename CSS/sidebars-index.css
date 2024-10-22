@@ -144,12 +144,14 @@
 .sidebar-right__news{
   background-color: var(--color-principal);
   padding: 25px;
+  margin-bottom: var(--separacion);
 }
 .sidebar-right__titulo{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
+  color: var(--color-fuentes2);
 }
 .sidebar-right__icon{
   color: var(--color-secundario);
@@ -183,7 +185,6 @@
 .sidebar__inmovil{
   position: sticky;
   top: 70px;
-  margin-top: var(--separacion);
 }
 
 .sidebar__ads{
@@ -216,25 +217,32 @@
   height: 65px;
   border-radius: 50%;
 }
-.sidebar__adslink{
+
+.boton-transparente{
   text-decoration: none;
   font-size: var(--tamaño-parrafos);
-  color: var(--color-secundario);
+  color: var(--color-fuentes);
   font-weight: 500;
-  display: flex;
+  display: inline-block;
   padding: 5px var(--separacion);
   border-radius: 20px;
+  border: 1px solid var(--color-fuentes);
+  width: max-content;
+}
+
+.sidebar__adslink{
+  color: var(--color-secundario);
   border: 1px solid var(--color-secundario);
   margin-top: var(--separacion);
 }
 
 /* LINKS */
 
-.sidebar__links{  
+.links{  
   text-align: center;
   font-size: var(--tamaño-parrafos2);
 }
-.sidebar__link{
+.link{
   display: inline-block;
   text-decoration: none;
   color: var(--color-fuentes);

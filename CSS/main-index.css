@@ -101,6 +101,9 @@
 .post__imagen-autor{
   margin-top: 5px;
 }
+.post__nombre{
+  color: var(--color-fuentes2);
+}
 .post__mensaje{
   font-size: var(--tamaño-parrafos2);
   color: var(--color-fuentes);

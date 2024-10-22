@@ -1,3 +1,6 @@
+
+/* PERFIL */
+
 .perfil-contenedor{
     background-color: var(--color-principal);
 }
@@ -7,7 +10,126 @@
     object-fit: cover;
 }
 
+.perfil-contenedor__foto{
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-principal);
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.perfil-contenedor__informacion{
+    padding: 10px 35px;
+    color: var(--color-fuentes);
+}
+
+.perfil-contenedor__usuario{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-fuentes2);
+}
+.perfil-contenedor__ocupacion{
+    font-weight: 500;
+}
+.perfil-contenedor__ciudad{
+    margin-top: 5px;
+}
+.perfil-contenedor__link{
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+.perfil-contenedor__conexion{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    gap: var(--separacion);
+}
+
+.perfil-contenedor__botones{
+    display: flex;
+    gap: var(--separacion);
+    margin: 20px 0;
+}
+.boton-relleno{
+    display: flex;
+    padding: 5px var(--separacion);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color-principal);
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-secundario);
+}
+.boton-relleno:last-child{
+    color: var(--color-fuentes);
+    background-color: #e4e6eb;
+}
+
+/* ADICIONALES */
+
 .perfil-descripcion{
     background-color: var(--color-principal);
-    padding: 20px 35px;
+    padding: 20px 35px 35px;
+    color: var(--color-fuentes);
+}
+
+.perfil-descripcion__titulo{
+    color: var(--color-fuentes2);
+    margin: 5px 0 20px;
+}
+.perfil-descripcion__texto{
+    margin: var(--separacion) 0;
+}
+.perfil-descripcion__vermas{
+    float: right;
+    color: var(--color-fuentes);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+}
+.perfil-descripcion__bloque{
+    display: flex;
+    align-items: start;
+}
+.perfil-descripcion__info{
+    width: 100%;
+}
+
+.perfil-descripcion__imagen{
+    width: 50px;
+    margin-right:20px;
+    margin-top: 8px;
+}
+.perfil-descripcion__titulo2{
+    color: var(--color-fuentes2);
+    font-weight: 550;
+}
+.perfil-descripcion__detalles{
+    display: block;
+    font-weight: 500;
+    font-size: var(--tamaño-parrafos2);
+}
+.perfil-descripcion__linkexperiencia{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-fuentes);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: var(--separacion) 0 0;
+}
+
+.habilidad{
+    margin: 10px 5px ;
+}
+.idioma{
+    background-color: #e4e6eb;
+    font-size: var(--tamaño-parrafos);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px var(--separacion);
+    margin: 0 10px;
+    color: var(--color-fuentes);
 }
