@@ -167,7 +167,6 @@
   display: flex;
   color: #fff;
   align-items: center;
-  margin: var(--separacion) 0;
   cursor: pointer;
 } 
 .perfil-menu__icono{

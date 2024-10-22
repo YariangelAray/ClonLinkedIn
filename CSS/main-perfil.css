@@ -1,0 +1,13 @@
+.perfil-contenedor{
+    background-color: var(--color-principal);
+}
+.perfil-contenedor__fondo{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.perfil-descripcion{
+    background-color: var(--color-principal);
+    padding: 20px 35px;
+}

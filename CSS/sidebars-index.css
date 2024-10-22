@@ -1,6 +1,8 @@
-/* IZQUIERDO */
+
+/* --------------- SIDEBAR IZQUIERDO ---------------*/
 
 /* PERFIL */
+
 .sidebar-left__perfil{
   background-color: var(--color-principal);
 }
@@ -134,10 +136,11 @@
   background-color: var(--azul-claro);
 }
 
-/* SIDEBAR DERECHO */
+/* --------------------- SIDEBAR DERECHO -------------------*/
 
 
 /* NOTICIAS */
+
 .sidebar-right__news{
   background-color: var(--color-principal);
   padding: 25px;
@@ -174,14 +177,16 @@
   font-weight: 500;
   margin-top: 25px;
 }
+
 /* ADS */
-.sidebar-right__inmovil{
+
+.sidebar__inmovil{
   position: sticky;
   top: 70px;
   margin-top: var(--separacion);
 }
 
-.sidebar-right__ads{
+.sidebar__ads{
   background-color: var(--color-principal);
   padding: 25px;
   font-size: 12px;
@@ -189,28 +194,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: var(--separacion2);
 }
-.sidebar-right__adsmore{
+.sidebar__adsmore{
   display: flex;
   align-self: end;
   font-size: 11px;
   margin-bottom: var(--separacion);
   cursor: pointer;
 }
-.sidebar-right__imagenes{
+.sidebar__imagenes{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: var(--separacion);
   gap: var(--separacion);
 }
-.sidebar-right__img{
+.sidebar__img{
   min-width: 65px;
   width: 65px;
   height: 65px;
   border-radius: 50%;
 }
-.sidebar-right__adslink{
+.sidebar__adslink{
   text-decoration: none;
   font-size: var(--tamaño-parrafos);
   color: var(--color-secundario);
@@ -224,12 +230,11 @@
 
 /* LINKS */
 
-.sidebar-right__links{  
-  margin-top: var(--separacion2);
+.sidebar__links{  
   text-align: center;
   font-size: var(--tamaño-parrafos2);
 }
-.sidebar-right__link{
+.sidebar__link{
   display: inline-block;
   text-decoration: none;
   color: var(--color-fuentes);

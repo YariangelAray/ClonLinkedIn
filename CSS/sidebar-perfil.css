@@ -1,0 +1,38 @@
+.sidebar__personas{
+    background-color: var(--color-principal);
+    padding: 20px;
+    padding-bottom: 10px;
+    color: var(--color-fuentes);
+}
+
+.sidebar__titulo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: var(--separacion);
+}
+
+.persona{
+    display: flex;
+    gap: var(--separacion);
+    margin-bottom: var(--separacion);
+}
+.persona__foto{
+    margin-top: 8px;
+}
+.persona__nombre{    
+    font-weight: 500;
+    font-size: var(--tamaño-nombre);
+}
+.persona__ocupacion{
+    font-size: var(--tamaño-parrafos);
+    margin-bottom: 10px;
+}
+
+.persona__conectar{
+    font-size: var(--tamaño-parrafos);
+    color: var(--color-fuentes);
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid var(--color-fuentes);
+    border-radius: 15px;
+}
