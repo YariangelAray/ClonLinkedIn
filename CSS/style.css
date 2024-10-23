@@ -43,3 +43,56 @@
   height: 35px;
   border-radius: 50%;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1100px){
+  .sidebar-right{
+    display: none;
+  }
+
+  .contenedor__estructura{
+    grid-template-columns: 280px 1fr;
+    grid-template-areas:'sidebar1 main';
+  }
+}
+
+@media (max-width: 770px){
+  .navegacion__item{
+    min-width: 45px;
+  }
+  .navegacion__text{
+    display: none;
+  }
+
+  .barra-busqueda{
+    background-color: transparent;
+    width: auto;
+    padding: 0 var(--separacion) 0 0;
+  }
+
+  .barra-busqueda__ingresar{
+    display: none;
+  }
+
+  .contenedor__estructura{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'sidebar1'
+    'main';
+  }
+
+  .sidebar-left__perfil-fondo,
+  .perfil-contenedor__fondo{
+    height: 30vw;
+    min-height: 150px;
+  }
+
+  .contenedor__estructura-perfil{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'perfil-main'
+        'perfil-sidebar'
+        'perfil-footer';
+  }
+}

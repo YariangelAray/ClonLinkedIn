@@ -190,6 +190,7 @@
 .sidebar__ads{
   background-color: var(--color-principal);
   padding: 25px;
+  padding-top: var(--separacion);
   font-size: 12px;
   color: var(--color-fuentes);
   display: flex;

@@ -21,7 +21,7 @@
 }
 .persona__nombre{    
     font-weight: 500;
-    font-size: var(--tamaño-nombre);
+    font-size: 1rem;
 }
 .persona__ocupacion{
     font-size: var(--tamaño-parrafos);

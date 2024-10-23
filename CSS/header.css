@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   gap: var(--separacion2);
-  flex: 0 1 380px;
+  flex: 0 1 400px;
 }
 
 .logo{
@@ -38,13 +38,14 @@
   display: flex;
   align-items: center;
   background-color: var(--azul-claro);
-  padding: var(--separacion) 20px;
+  padding: 0px var(--separacion);
   border-radius: 15px;
   color: var(--color-fuentes);
-  gap: var(--separacion);
   font-size: var(--tamaño-iconos);
   width: 100%;
-  height: 35px;
+  min-width: auto;
+  height: 40px;
+  transition: var(--tiempo-transicion);
 }
 
 .barra-busqueda__ingresar{
@@ -52,6 +53,8 @@
   outline: none;
   border: none;
   font-size: var(--tamaño-parrafos);
+  width: 100%;
+  padding-left: 10px;
 }
 
 /* NAVEGACIÓN */

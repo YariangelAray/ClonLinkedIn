@@ -136,9 +136,11 @@
   height: 15px;
   font-size: 10px;
 }
+
 .like{background-color: #5e89be;}
 .corazon{background-color: #d37659;}
 .mano{background-color:#7ca858;}
+
 .post__acciones{
   display: flex;
   align-items: center;
